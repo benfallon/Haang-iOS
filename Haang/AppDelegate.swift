@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Create a PostStore
+        let postStore = PostStore()
+        
+        //Access the PostViewController and set its post store
+        let postsController = window!.rootViewController as! PostsViewController
+        postsController.postStore = postStore
+        
         return true
     }
 
