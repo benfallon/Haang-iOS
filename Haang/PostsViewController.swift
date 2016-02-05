@@ -40,6 +40,18 @@ class PostsViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        //If the table view is asking to commit a delete command...
+        if editingStyle == .Delete {
+            let post = postStore.allPosts[indexPath.row]
+            //Remove the post from the store
+            postStore.removePost(post)
+            
+            //Also remove that row from the table view with an animation
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        }
+    }
+    
     @IBAction func addNewPost(sender: AnyObject) {
         //Create a new post and add it to the store
         let newPost = postStore.createPost()

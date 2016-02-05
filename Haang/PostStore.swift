@@ -20,10 +20,9 @@ class PostStore {
         return newPost
     }
     
-    init() {
-        for _ in 0..<5 {
-            createPost()
+    func removePost(post: Post) {
+        if let index = allPosts.indexOf(post) {
+            allPosts.removeAtIndex(index)
         }
     }
-    
 }
