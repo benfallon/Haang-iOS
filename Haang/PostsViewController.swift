@@ -1,5 +1,5 @@
 //
-//  ActivesListViewController.swift
+//  PostsViewController.swift
 //  Haang
 //
 //  Created by Ben Fallon on 2/4/16.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class ActivesListViewController: UITableViewController {
+class PostsViewController: UITableViewController {
     
 }
