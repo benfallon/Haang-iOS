@@ -12,28 +12,6 @@ class PostsViewController: UITableViewController {
     
     var postStore: PostStore!
     
-    @IBAction func addNewPost(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func toggleEditingMode(sender: AnyObject) {
-        //If you are currently in editing mode...
-        if editing {
-            //Change text of button to inform user of state
-            sender.setTitle("Edit", forState: .Normal)
-            
-            //Turn off editing mode
-            setEditing(false, animated: true)
-        }
-        else {
-            //Change text of button to inform user of state
-            sender.setTitle("Done", forState: .Normal)
-            
-            //Enter editing mode
-            setEditing(true, animated: true)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -60,6 +38,37 @@ class PostsViewController: UITableViewController {
         cell.detailTextLabel?.text = post.phoneNumber
         
         return cell
+    }
+    
+    @IBAction func addNewPost(sender: AnyObject) {
+        //Create a new post and add it to the store
+        let newPost = postStore.createPost()
+        
+        //Figure out where that post is in the array
+        if let index = postStore.allPosts.indexOf(newPost) {
+            let indexPath = NSIndexPath(forRow: index, inSection: 0)
+            
+            //Insert this new row into the table
+            tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        }
+    }
+    
+    @IBAction func toggleEditingMode(sender: AnyObject) {
+        //If you are currently in editing mode...
+        if editing {
+            //Change text of button to inform user of state
+            sender.setTitle("Edit", forState: .Normal)
+            
+            //Turn off editing mode
+            setEditing(false, animated: true)
+        }
+        else {
+            //Change text of button to inform user of state
+            sender.setTitle("Done", forState: .Normal)
+            
+            //Enter editing mode
+            setEditing(true, animated: true)
+        }
     }
     
 }
