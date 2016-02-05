@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EDF83EC1C64443F00CE4BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF83EB1C64443F00CE4BC4 /* AppDelegate.swift */; };
+		9EDF83EE1C64443F00CE4BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF83ED1C64443F00CE4BC4 /* ViewController.swift */; };
+		9EDF83F11C64443F00CE4BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF83EF1C64443F00CE4BC4 /* Main.storyboard */; };
+		9EDF83F31C64443F00CE4BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF83F21C64443F00CE4BC4 /* Assets.xcassets */; };
+		9EDF83F61C64443F00CE4BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */; };
+		9EDF84011C64443F00CE4BC4 /* HaangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF84001C64443F00CE4BC4 /* HaangTests.swift */; };
+		9EDF840C1C64443F00CE4BC4 /* HaangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF840B1C64443F00CE4BC4 /* HaangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EDF83FD1C64443F00CE4BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDF83E01C64443F00CE4BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDF83E71C64443F00CE4BC4;
+			remoteInfo = Haang;
+		};
+		9EDF84081C64443F00CE4BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDF83E01C64443F00CE4BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDF83E71C64443F00CE4BC4;
+			remoteInfo = Haang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EDF83E81C64443F00CE4BC4 /* Haang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF83EB1C64443F00CE4BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EDF83ED1C64443F00CE4BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EDF83F01C64443F00CE4BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EDF83F21C64443F00CE4BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EDF83F51C64443F00CE4BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EDF83F71C64443F00CE4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF83FC1C64443F00CE4BC4 /* HaangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF84001C64443F00CE4BC4 /* HaangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaangTests.swift; sourceTree = "<group>"; };
+		9EDF84021C64443F00CE4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF84071C64443F00CE4BC4 /* HaangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF840B1C64443F00CE4BC4 /* HaangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaangUITests.swift; sourceTree = "<group>"; };
+		9EDF840D1C64443F00CE4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDF83E51C64443F00CE4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF83F91C64443F00CE4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF84041C64443F00CE4BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EDF83DF1C64443F00CE4BC4 = {
+			isa = PBXGroup;
+			children = (
+				9EDF83EA1C64443F00CE4BC4 /* Haang */,
+				9EDF83FF1C64443F00CE4BC4 /* HaangTests */,
+				9EDF840A1C64443F00CE4BC4 /* HaangUITests */,
+				9EDF83E91C64443F00CE4BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EDF83E91C64443F00CE4BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF83E81C64443F00CE4BC4 /* Haang.app */,
+				9EDF83FC1C64443F00CE4BC4 /* HaangTests.xctest */,
+				9EDF84071C64443F00CE4BC4 /* HaangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EDF83EA1C64443F00CE4BC4 /* Haang */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF83EB1C64443F00CE4BC4 /* AppDelegate.swift */,
+				9EDF83ED1C64443F00CE4BC4 /* ViewController.swift */,
+				9EDF83EF1C64443F00CE4BC4 /* Main.storyboard */,
+				9EDF83F21C64443F00CE4BC4 /* Assets.xcassets */,
+				9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */,
+				9EDF83F71C64443F00CE4BC4 /* Info.plist */,
+			);
+			path = Haang;
+			sourceTree = "<group>";
+		};
+		9EDF83FF1C64443F00CE4BC4 /* HaangTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF84001C64443F00CE4BC4 /* HaangTests.swift */,
+				9EDF84021C64443F00CE4BC4 /* Info.plist */,
+			);
+			path = HaangTests;
+			sourceTree = "<group>";
+		};
+		9EDF840A1C64443F00CE4BC4 /* HaangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF840B1C64443F00CE4BC4 /* HaangUITests.swift */,
+				9EDF840D1C64443F00CE4BC4 /* Info.plist */,
+			);
+			path = HaangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EDF83E71C64443F00CE4BC4 /* Haang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDF84101C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "Haang" */;
+			buildPhases = (
+				9EDF83E41C64443F00CE4BC4 /* Sources */,
+				9EDF83E51C64443F00CE4BC4 /* Frameworks */,
+				9EDF83E61C64443F00CE4BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haang;
+			productName = Haang;
+			productReference = 9EDF83E81C64443F00CE4BC4 /* Haang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EDF83FB1C64443F00CE4BC4 /* HaangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDF84131C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangTests" */;
+			buildPhases = (
+				9EDF83F81C64443F00CE4BC4 /* Sources */,
+				9EDF83F91C64443F00CE4BC4 /* Frameworks */,
+				9EDF83FA1C64443F00CE4BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDF83FE1C64443F00CE4BC4 /* PBXTargetDependency */,
+			);
+			name = HaangTests;
+			productName = HaangTests;
+			productReference = 9EDF83FC1C64443F00CE4BC4 /* HaangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EDF84061C64443F00CE4BC4 /* HaangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDF84161C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangUITests" */;
+			buildPhases = (
+				9EDF84031C64443F00CE4BC4 /* Sources */,
+				9EDF84041C64443F00CE4BC4 /* Frameworks */,
+				9EDF84051C64443F00CE4BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDF84091C64443F00CE4BC4 /* PBXTargetDependency */,
+			);
+			name = HaangUITests;
+			productName = HaangUITests;
+			productReference = 9EDF84071C64443F00CE4BC4 /* HaangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EDF83E01C64443F00CE4BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Benjamin Fallon";
+				TargetAttributes = {
+					9EDF83E71C64443F00CE4BC4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9EDF83FB1C64443F00CE4BC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9EDF83E71C64443F00CE4BC4;
+					};
+					9EDF84061C64443F00CE4BC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9EDF83E71C64443F00CE4BC4;
+					};
+				};
+			};
+			buildConfigurationList = 9EDF83E31C64443F00CE4BC4 /* Build configuration list for PBXProject "Haang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EDF83DF1C64443F00CE4BC4;
+			productRefGroup = 9EDF83E91C64443F00CE4BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDF83E71C64443F00CE4BC4 /* Haang */,
+				9EDF83FB1C64443F00CE4BC4 /* HaangTests */,
+				9EDF84061C64443F00CE4BC4 /* HaangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EDF83E61C64443F00CE4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF83F61C64443F00CE4BC4 /* LaunchScreen.storyboard in Resources */,
+				9EDF83F31C64443F00CE4BC4 /* Assets.xcassets in Resources */,
+				9EDF83F11C64443F00CE4BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF83FA1C64443F00CE4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF84051C64443F00CE4BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EDF83E41C64443F00CE4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF83EE1C64443F00CE4BC4 /* ViewController.swift in Sources */,
+				9EDF83EC1C64443F00CE4BC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF83F81C64443F00CE4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF84011C64443F00CE4BC4 /* HaangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF84031C64443F00CE4BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF840C1C64443F00CE4BC4 /* HaangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EDF83FE1C64443F00CE4BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDF83E71C64443F00CE4BC4 /* Haang */;
+			targetProxy = 9EDF83FD1C64443F00CE4BC4 /* PBXContainerItemProxy */;
+		};
+		9EDF84091C64443F00CE4BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDF83E71C64443F00CE4BC4 /* Haang */;
+			targetProxy = 9EDF84081C64443F00CE4BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EDF83EF1C64443F00CE4BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDF83F01C64443F00CE4BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDF83F51C64443F00CE4BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EDF840E1C64443F00CE4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EDF840F1C64443F00CE4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDF84111C64443F00CE4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.Haang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EDF84121C64443F00CE4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.Haang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EDF84141C64443F00CE4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.HaangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haang.app/Haang";
+			};
+			name = Debug;
+		};
+		9EDF84151C64443F00CE4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.HaangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haang.app/Haang";
+			};
+			name = Release;
+		};
+		9EDF84171C64443F00CE4BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.HaangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Haang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9EDF84181C64443F00CE4BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminafallon.HaangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Haang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EDF83E31C64443F00CE4BC4 /* Build configuration list for PBXProject "Haang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF840E1C64443F00CE4BC4 /* Debug */,
+				9EDF840F1C64443F00CE4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDF84101C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "Haang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF84111C64443F00CE4BC4 /* Debug */,
+				9EDF84121C64443F00CE4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EDF84131C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF84141C64443F00CE4BC4 /* Debug */,
+				9EDF84151C64443F00CE4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EDF84161C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF84171C64443F00CE4BC4 /* Debug */,
+				9EDF84181C64443F00CE4BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EDF83E01C64443F00CE4BC4 /* Project object */;
+}
