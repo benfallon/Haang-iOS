@@ -14,6 +14,7 @@
 		9EDF83F61C64443F00CE4BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */; };
 		9EDF84011C64443F00CE4BC4 /* HaangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF84001C64443F00CE4BC4 /* HaangTests.swift */; };
 		9EDF840C1C64443F00CE4BC4 /* HaangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF840B1C64443F00CE4BC4 /* HaangUITests.swift */; };
+		9EDF841A1C64452B00CE4BC4 /* ActivesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF84191C64452B00CE4BC4 /* ActivesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9EDF84071C64443F00CE4BC4 /* HaangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDF840B1C64443F00CE4BC4 /* HaangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaangUITests.swift; sourceTree = "<group>"; };
 		9EDF840D1C64443F00CE4BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF84191C64452B00CE4BC4 /* ActivesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9EDF83F21C64443F00CE4BC4 /* Assets.xcassets */,
 				9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */,
 				9EDF83F71C64443F00CE4BC4 /* Info.plist */,
+				9EDF84191C64452B00CE4BC4 /* ActivesListViewController.swift */,
 			);
 			path = Haang;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDF841A1C64452B00CE4BC4 /* ActivesListViewController.swift in Sources */,
 				9EDF83EE1C64443F00CE4BC4 /* ViewController.swift in Sources */,
 				9EDF83EC1C64443F00CE4BC4 /* AppDelegate.swift in Sources */,
 			);
