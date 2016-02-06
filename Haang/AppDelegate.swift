@@ -21,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let postStore = PostStore()
         
         //Access the PostViewController and set its post store
-        let postsController = window!.rootViewController as! PostsViewController
+        let navController = window!.rootViewController as! UINavigationController
+        let postsController = navController.topViewController as! PostsViewController
         postsController.postStore = postStore
         
         return true

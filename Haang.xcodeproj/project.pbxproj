@@ -16,6 +16,7 @@
 		9EDF841A1C64452B00CE4BC4 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF84191C64452B00CE4BC4 /* PostsViewController.swift */; };
 		9EDF841C1C64481100CE4BC4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841B1C64481100CE4BC4 /* Post.swift */; };
 		9EDF841E1C6449A500CE4BC4 /* PostStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841D1C6449A500CE4BC4 /* PostStore.swift */; };
+		9EDF84201C645D2500CE4BC4 /* AddActivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841F1C645D2500CE4BC4 /* AddActivesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9EDF84191C64452B00CE4BC4 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		9EDF841B1C64481100CE4BC4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = ../Post.swift; sourceTree = "<group>"; };
 		9EDF841D1C6449A500CE4BC4 /* PostStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostStore.swift; sourceTree = "<group>"; };
+		9EDF841F1C645D2500CE4BC4 /* AddActivesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +108,10 @@
 				9EDF83F21C64443F00CE4BC4 /* Assets.xcassets */,
 				9EDF83F41C64443F00CE4BC4 /* LaunchScreen.storyboard */,
 				9EDF83F71C64443F00CE4BC4 /* Info.plist */,
-				9EDF84191C64452B00CE4BC4 /* PostsViewController.swift */,
 				9EDF841B1C64481100CE4BC4 /* Post.swift */,
 				9EDF841D1C6449A500CE4BC4 /* PostStore.swift */,
+				9EDF84191C64452B00CE4BC4 /* PostsViewController.swift */,
+				9EDF841F1C645D2500CE4BC4 /* AddActivesViewController.swift */,
 			);
 			path = Haang;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				9EDF841C1C64481100CE4BC4 /* Post.swift in Sources */,
 				9EDF841E1C6449A500CE4BC4 /* PostStore.swift in Sources */,
+				9EDF84201C645D2500CE4BC4 /* AddActivesViewController.swift in Sources */,
 				9EDF841A1C64452B00CE4BC4 /* PostsViewController.swift in Sources */,
 				9EDF83EC1C64443F00CE4BC4 /* AppDelegate.swift in Sources */,
 			);
