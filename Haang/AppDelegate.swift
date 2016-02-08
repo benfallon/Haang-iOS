@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Parse
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,7 +19,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios/guide#local-datastore
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("dtKOOQo53SfJtLSsERAjZclzELM1vQJxLHcsYDTJ",
+            clientKey: "2xYJqbLlaY9VXF7uFvtkdOwUS1kQdRiaqPgLc7eZ")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         //Create a PostStore
+        
+        
         let postStore = PostStore()
         
         //Access the PostViewController and set its post store

@@ -17,6 +17,7 @@
 		9EDF841C1C64481100CE4BC4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841B1C64481100CE4BC4 /* Post.swift */; };
 		9EDF841E1C6449A500CE4BC4 /* PostStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841D1C6449A500CE4BC4 /* PostStore.swift */; };
 		9EDF84201C645D2500CE4BC4 /* AddActivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF841F1C645D2500CE4BC4 /* AddActivesViewController.swift */; };
+		B813081215D45E771B5158CB /* Pods_Haang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F125BF07B99851F496BFF /* Pods_Haang.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B7EF156D4A60B2D70093482 /* Pods-Haang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haang/Pods-Haang.release.xcconfig"; sourceTree = "<group>"; };
+		5003AD252706EDE21EE79B25 /* Pods-Haang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haang/Pods-Haang.debug.xcconfig"; sourceTree = "<group>"; };
 		9EDF83E81C64443F00CE4BC4 /* Haang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDF83EB1C64443F00CE4BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EDF83F01C64443F00CE4BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		9EDF841B1C64481100CE4BC4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = ../Post.swift; sourceTree = "<group>"; };
 		9EDF841D1C6449A500CE4BC4 /* PostStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostStore.swift; sourceTree = "<group>"; };
 		9EDF841F1C645D2500CE4BC4 /* AddActivesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivesViewController.swift; sourceTree = "<group>"; };
+		EE5F125BF07B99851F496BFF /* Pods_Haang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B813081215D45E771B5158CB /* Pods_Haang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95122E0EA49034C87871E1F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5003AD252706EDE21EE79B25 /* Pods-Haang.debug.xcconfig */,
+				3B7EF156D4A60B2D70093482 /* Pods-Haang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9EDF83DF1C64443F00CE4BC4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +101,8 @@
 				9EDF83FF1C64443F00CE4BC4 /* HaangTests */,
 				9EDF840A1C64443F00CE4BC4 /* HaangUITests */,
 				9EDF83E91C64443F00CE4BC4 /* Products */,
+				95122E0EA49034C87871E1F7 /* Pods */,
+				B77A6531D488DEF53FC02AFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +150,14 @@
 			path = HaangUITests;
 			sourceTree = "<group>";
 		};
+		B77A6531D488DEF53FC02AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F125BF07B99851F496BFF /* Pods_Haang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EDF84101C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "Haang" */;
 			buildPhases = (
+				A98CDB7CE93B5BBE1421170C /* Check Pods Manifest.lock */,
 				9EDF83E41C64443F00CE4BC4 /* Sources */,
 				9EDF83E51C64443F00CE4BC4 /* Frameworks */,
 				9EDF83E61C64443F00CE4BC4 /* Resources */,
+				D3D8E0E87300AFA3DD557CF0 /* Embed Pods Frameworks */,
+				8DAA512C350556489333D859 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DAA512C350556489333D859 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haang/Pods-Haang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98CDB7CE93B5BBE1421170C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D8E0E87300AFA3DD557CF0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haang/Pods-Haang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EDF83E41C64443F00CE4BC4 /* Sources */ = {
@@ -407,6 +482,7 @@
 		};
 		9EDF84111C64443F00CE4BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5003AD252706EDE21EE79B25 /* Pods-Haang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Haang/Info.plist;
@@ -418,6 +494,7 @@
 		};
 		9EDF84121C64443F00CE4BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7EF156D4A60B2D70093482 /* Pods-Haang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Haang/Info.plist;
@@ -494,6 +571,7 @@
 				9EDF84121C64443F00CE4BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDF84131C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +580,7 @@
 				9EDF84151C64443F00CE4BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDF84161C64443F00CE4BC4 /* Build configuration list for PBXNativeTarget "HaangUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +589,7 @@
 				9EDF84181C64443F00CE4BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

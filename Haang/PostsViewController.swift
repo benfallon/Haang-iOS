@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Parse
+
 class PostsViewController: UITableViewController {
     
     var postStore: PostStore!
@@ -23,6 +25,12 @@ class PostsViewController: UITableViewController {
         
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 65
+        
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            print("Object has been saved.")
+        }
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
